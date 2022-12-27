@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Travel-Test/static/css/main.326ae9b3.css",
+    "main.js": "/Travel-Test/static/js/main.b13fad60.js",
+    "static/media/background.png": "/Travel-Test/static/media/background.8f695ba2cc567650c466.png",
+    "index.html": "/Travel-Test/index.html",
+    "main.326ae9b3.css.map": "/Travel-Test/static/css/main.326ae9b3.css.map",
+    "main.b13fad60.js.map": "/Travel-Test/static/js/main.b13fad60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.326ae9b3.css",
+    "static/js/main.b13fad60.js"
+  ]
+}
