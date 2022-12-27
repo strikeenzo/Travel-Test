@@ -141,7 +141,6 @@ const SearchFormItem: React.FC<ISearchFormProps> = ({
 
   const checkValidation = () => {
     const { current, destination } = flightState;
-    console.log(flightState);
     return current.name && destination.name && dateFrom;
   };
 
@@ -218,7 +217,7 @@ const SearchFormItem: React.FC<ISearchFormProps> = ({
                     name="current"
                     placeholder="From"
                     onChange={handleChange}
-                    value={flightState.current.name}
+                    // value={flightState.current.name}
                     onFocus={() => {
                       setOpenCurrentSelect(true);
                       setOpenDestinationSelect(false);
@@ -310,7 +309,7 @@ const SearchFormItem: React.FC<ISearchFormProps> = ({
                   placeholder="To"
                   name="destination"
                   onChange={handleChange}
-                  value={flightState.destination.name}
+                  // value={flightState.destination.name}
                   onFocus={() => {
                     setOpenDestinationSelect(true);
                     setOpenCurrentSelect(false);
